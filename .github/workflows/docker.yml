@@ -15,5 +15,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: ppaci/microsoft-defender-atp-exporter/microsoft-defender-atp-exporter
+          repository: ppaci/azure-security-center-exporter/azure-security-center-exporter
           tag_with_ref: true
